@@ -7,7 +7,7 @@
 // CC-BY-SA 2.5.
 package event
 
-import "github.com/gopherjs/vecty"
+import "github.com/denkhaus/vecty"
 
 // Abort is an event fired when a transaction has been aborted.
 //
@@ -376,7 +376,7 @@ func DurationChange(listener func(*vecty.Event)) *vecty.EventListener {
 
 // Emptied is an event fired when the media has become empty; for example, this
 // event is sent if the media has already been loaded (or partially loaded),
-// and the load() method is called to reload it.
+// and the load() method is called to reload it.
 //
 // https://developer.mozilla.org/docs/Web/Events/emptied
 func Emptied(listener func(*vecty.Event)) *vecty.EventListener {

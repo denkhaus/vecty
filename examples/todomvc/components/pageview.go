@@ -3,15 +3,15 @@ package components
 import (
 	"fmt"
 
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
-	"github.com/gopherjs/vecty/event"
-	"github.com/gopherjs/vecty/examples/todomvc/actions"
-	"github.com/gopherjs/vecty/examples/todomvc/dispatcher"
-	"github.com/gopherjs/vecty/examples/todomvc/store"
-	"github.com/gopherjs/vecty/examples/todomvc/store/model"
-	"github.com/gopherjs/vecty/prop"
-	"github.com/gopherjs/vecty/style"
+	"github.com/denkhaus/vecty"
+	"github.com/denkhaus/vecty/elem"
+	"github.com/denkhaus/vecty/event"
+	"github.com/denkhaus/vecty/examples/todomvc/actions"
+	"github.com/denkhaus/vecty/examples/todomvc/dispatcher"
+	"github.com/denkhaus/vecty/examples/todomvc/store"
+	"github.com/denkhaus/vecty/examples/todomvc/store/model"
+	"github.com/denkhaus/vecty/prop"
+	"github.com/denkhaus/vecty/style"
 )
 
 type PageView struct {

@@ -5,12 +5,12 @@ import (
 	"fmt"
 
 	"github.com/gopherjs/gopherjs/js"
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/examples/todomvc/actions"
-	"github.com/gopherjs/vecty/examples/todomvc/components"
-	"github.com/gopherjs/vecty/examples/todomvc/dispatcher"
-	"github.com/gopherjs/vecty/examples/todomvc/store"
-	"github.com/gopherjs/vecty/examples/todomvc/store/model"
+	"github.com/denkhaus/vecty"
+	"github.com/denkhaus/vecty/examples/todomvc/actions"
+	"github.com/denkhaus/vecty/examples/todomvc/components"
+	"github.com/denkhaus/vecty/examples/todomvc/dispatcher"
+	"github.com/denkhaus/vecty/examples/todomvc/store"
+	"github.com/denkhaus/vecty/examples/todomvc/store/model"
 )
 
 func main() {

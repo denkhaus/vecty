@@ -7,7 +7,7 @@
 // CC-BY-SA 2.5.
 package elem
 
-import "github.com/gopherjs/vecty"
+import "github.com/denkhaus/vecty"
 
 // The HTML Anchor Element (<a>) defines a hyperlink to a location on the same
 // page or any other page on the Web. It can also be used (in an obsolete way)
@@ -894,7 +894,7 @@ func TableData(markup ...vecty.MarkupOrComponentOrHTML) *vecty.HTML {
 
 // The HTML template element <template> is a mechanism for holding client-side
 // content that is not to be rendered when a page is loaded but may
-// subsequently be instantiated during runtime using JavaScript. 
+// subsequently be instantiated during runtime using JavaScript.
 //
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
 func Template(markup ...vecty.MarkupOrComponentOrHTML) *vecty.HTML {
